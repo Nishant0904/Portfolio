@@ -98,20 +98,22 @@ const Button = styled.a`
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      <Image src={project.image} />
-      <Tags></Tags>
-      <Details>
-        <Title>{project.title}</Title>
-        <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
-      </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
-      <Button href={project.github} target="_blank">
-        View Code
+      <Button href={project.webapp} target="_blank">
+        <Image src={project.image} />
+        <Tags></Tags>
+        <Details>
+          <Title>{project.title}</Title>
+          <Date>{project.date}</Date>
+          <Description>{project.description}</Description>
+        </Details>
+        <Members>
+          {project.member?.map((member) => (
+            <Avatar src={member.img} />
+          ))}
+        </Members>
+        <Button href={project.github} target="_blank">
+          View Code
+        </Button>
       </Button>
     </Card>
   );

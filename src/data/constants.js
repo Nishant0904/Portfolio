@@ -2,6 +2,8 @@ import BlogImg from '../images/blog-web.png'
 import CVImg from '../images/CV-App.png'
 import MyCartImg from '../images/My-cart.png'
 import ToDoImg from '../images/ToDo.png'
+import MockItUp from '../images/MockItUp.png'
+import CVision from '../images/CVision.png'
 export const Bio = {
   name: "Nishant Garg",
   roles: [
@@ -159,6 +161,25 @@ export const education = [
 
 export const projects = [
   {
+    id: 2,
+    title: "MockItUp",
+    date: "June 2025 - June 2025",
+    description:
+      "MockItUp is a smart AI-driven mock interview app that helps users practice interviews tailored to their chosen job descriptions. Using Google Gemini AI, it generates relevant questions, then conducts interviews via webcam with real-time speech recognition. After each session, users receive instant feedback based on how well their answers match ideal responses—making preparation focused, realistic, and effective.",
+    image: MockItUp,
+    tags: [
+      "React",
+      "TypeScript",
+      "Google Gemini API",
+      "Firebase",
+      "Tailwind CSS",
+    ],
+    category: "web app",
+    github: "https://github.com/Nishant0904/MockItUp",
+    webapp: "https://ai-mock-interview-b99b1.web.app/",
+  },
+
+  {
     id: 11,
     title: "Chit-Chatra",
     date: "Aug 2024 - Sep 2024",
@@ -176,7 +197,25 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Nishant0904/ChitChatra",
-    webapp: "https://github.com/Nishant0904/ChitChatra",
+    webapp: "https://chit-chatra.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "CVision",
+    date: "June 2025 - June 2025",
+    description:
+      "CVision is an AI-based resume analysis tool that uses NLP to score resumes, give personalized feedback, and suggest improvements. Users can share feedback, and admins can access data for all submitted resumes. It helps streamline the hiring process by making resume screening faster and smarter.",
+    image: CVision,
+    tags: [
+      "Python",
+      "Streamlit",
+      "NLTK",
+      "SQLite",
+      "Pandas",
+    ],
+    category: "web app",
+    github: "https://github.com/Nishant0904/CVision",
+    webapp: "https://cvision-tg3t.onrender.com/",
   },
   {
     id: 9,
