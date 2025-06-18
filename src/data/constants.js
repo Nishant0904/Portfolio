@@ -15,7 +15,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Nishant0904",
   resume:
-    "https://drive.google.com/file/d/19NeiVU04swUTyYDZPgyuEDEG-9YqNwBD/view?usp=drive_link",
+    "https://drive.google.com/file/d/1ula6-JAdu5qVGaA6MtD_CVOhd6hKG2Gn/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/nishant-garg-01734b28a",
   insta: "https://www.instagram.com/nishant_garg.09/",
 };
